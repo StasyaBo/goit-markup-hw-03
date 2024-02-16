@@ -5,6 +5,7 @@ body {
 }
 
 .container { 
+    display: flex;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -17,6 +18,10 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
     }
+
+img {
+    display: block;
+}    
 
 
 a {
@@ -52,6 +57,7 @@ address {
     }
 
 .header {
+    border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -101,10 +107,9 @@ address {
     font-style: normal;
 }
 .header-navigation{
-    
-    display: flex;
-    gap: 40px;
-    align-items: center;
+        display: flex;
+        align-items: center;
+        gap: 40px;
     
 }
 .header-menu{
@@ -306,6 +311,8 @@ background-color: #404BBF;
     margin: 0 auto 72px;
     padding-bottom: 120px;
     padding-top: 120px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
 
 .portfolio-img{
@@ -315,32 +322,35 @@ background-color: #404BBF;
 }
 .portfolio-subtitle{
     margin-bottom: 8px;
+    
 }
 
 .portfolio-text{
-padding-left: 16px;
-padding-right: 16px;
+padding: 32px 16px;
 margin-top: 32px;
-padding-bottom: 32px;
+border: 1px solid #e7e9fc;
+border-top: none; 
 }
 .portfolio-card{
     display: flex;
     flex-wrap: wrap;
-    row-gap:  48px;
     column-gap:  24px;
+    row-gap: 48px;
     width: calc(100% - 48px * 3);
 
 }
 .portfolio-item{
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+   
     background: var(--WHITE, #FFF);
+    row-gap: 48px;
     
 }
 
 .portfolio-title {
-    margin: 0 auto 72px;
+    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
+    
 
 /* Header 2 */
 font-family: Roboto;
@@ -368,7 +378,9 @@ text-transform: capitalize;
 }
 
 /*----footer----*/
-
+.footer {
+    padding: 100px 0
+}
 
 .footer-container{
     display: flex;
@@ -376,10 +388,11 @@ text-transform: capitalize;
     justify-content: center;
     background-color: #2E2F42;
     padding: 101.5px 1020px 100px 156px;
+     
 }
 
 .footer-logo {
-
+padding: 100px 0;
 color: #4d5ae5 ;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
@@ -387,9 +400,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-bottom: 15px;
-
-
+margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -400,12 +411,11 @@ margin-bottom: 15px;
 }
 
 .footer-text{
-
+max-width: 264px;
 color: #F4F4FD;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-max-width: 264px;
 margin: 100%;
 padding-bottom: 100px;
 border-left: 156px;
