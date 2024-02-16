@@ -56,6 +56,8 @@ address {
     overflow: hidden;
     }
 
+
+/**----header----**/
 .header {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
@@ -68,7 +70,6 @@ address {
     justify-content: space-between;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background-color: var(--WHITE, #FFF);
     
 }
@@ -96,6 +97,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-menu-studio:active {
@@ -110,6 +112,7 @@ address {
         display: flex;
         align-items: center;
         gap: 40px;
+        
     
 }
 .header-menu{
@@ -258,8 +261,8 @@ background-color: #404BBF;
 }
 
 .team-list {
-    display: inline;
-    row-gap: 24px;
+    display: flex;
+    gap: 24px;
     background-color: #FFFFFF;
     
 }
@@ -272,13 +275,13 @@ background-color: #404BBF;
     align-items: center;
     align-content: stretch;
     gap: 32px 24px;
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-card-s {
-    margin-left: auto;
-    margin-right: auto;
+    
     
     
 }
@@ -363,6 +366,7 @@ text-transform: capitalize;
 }
 
 .portfolio-subtitle {
+    margin-bottom: 8px; 
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -391,7 +395,8 @@ text-transform: capitalize;
      
 }
 
-.footer-logo {
+.footer.logo{
+display: inline-block; 
 padding: 100px 0;
 color: #4d5ae5 ;
 font-family: "Raleway", sans-serif;
