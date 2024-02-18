@@ -157,6 +157,10 @@ background-color: #404BBF;
 }
 
   /**----HERO----**/
+.hero{
+    padding: 188px 0;
+
+}
 
 .hero-container{
     background-color:  #2E2F42;
@@ -174,14 +178,15 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     margin-left: auto;
     margin-right: auto;
-
+    max-width: 496px; 
 }
-.button-position{
+
+.button-position {
     display: flex;
 }
 
 .hero-button {
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -198,6 +203,9 @@ background-color: #404BBF;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-button:hover,
@@ -305,7 +313,7 @@ background-color: #404BBF;
     margin-top: 8px;
     
 }
-   
+   /* Header 2 */
 
 
 /*----portfolio----*/
@@ -325,14 +333,13 @@ background-color: #404BBF;
 }
 .portfolio-subtitle{
     margin-bottom: 8px;
-    
 }
 
 .portfolio-text{
-padding: 32px 16px;
-margin-top: 32px;
-border: 1px solid #e7e9fc;
-border-top: none; 
+    padding: 32px 16px;
+    margin-top: 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
 }
 .portfolio-card{
     display: flex;
@@ -346,6 +353,7 @@ border-top: none;
    
     background: var(--WHITE, #FFF);
     row-gap: 48px;
+    width: calc((100% - 48px) / 3); 
     
 }
 
@@ -353,16 +361,13 @@ border-top: none;
     margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    
-
-/* Header 2 */
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -396,7 +401,8 @@ text-transform: capitalize;
 }
 
 .footer.logo{
-display: inline-block; 
+display: inline-block;
+margin-bottom: 16px; 
 padding: 100px 0;
 color: #4d5ae5 ;
 font-family: "Raleway", sans-serif;
@@ -405,7 +411,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-bottom: 16px;
+
 }
 
 .footer-logo-color {
@@ -415,7 +421,7 @@ margin-bottom: 16px;
    justify-content: center;
 }
 
-.footer-text{
+.footer-text {
 max-width: 264px;
 color: #F4F4FD;
 font-size: 16px;
