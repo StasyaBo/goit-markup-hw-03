@@ -403,13 +403,13 @@ background-color: #404BBF;
 }
     
     
-.footer-container {
+/*.footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 }
-
+*/
 .footer-logo {
     display: inline-block; 
     margin-bottom: 16px; 
