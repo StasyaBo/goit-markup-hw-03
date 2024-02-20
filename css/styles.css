@@ -401,19 +401,16 @@ background-color: #404BBF;
     background-color:  #2E2F42;
 }
     
-/*.footer-container {
+.footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
 }
-*/
+
 .footer-logo {
     display: inline-block; 
-    flex-direction: column;
     margin-bottom: 16px; 
     color: #4d5ae5;
-    width: auto;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
