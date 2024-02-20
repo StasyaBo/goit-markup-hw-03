@@ -9,7 +9,8 @@ body {
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px; 
+    padding-right: 15px;
     }
 
 p,  
@@ -419,15 +420,13 @@ background-color: #404BBF;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+    }
 
 .footer-logo-color {
    color: #F4F4FD;
-   width: 71px;
-}
+   }
 
 .footer-text {
-    align-items: center;
     max-width: 264px;
     color: #f4f4fd;
     font-size: 16px;
