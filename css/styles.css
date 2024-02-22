@@ -46,8 +46,6 @@ address {
     font-style: normal;
 }
 .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .visually-hidden {
     position: absolute;
@@ -227,6 +225,10 @@ background-color: #404BBF;
     gap: 24px;
     background-color: #FFF  ;
 }
+.features-container{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 .features-item {
     background-color:  #FFF;
     width: calc(100% - 72px * 4);
@@ -254,13 +256,13 @@ background-color: #404BBF;
 .team {
     display: block;
     background-color: #F4F4FD;
-    padding-top: 120px;
+
 }
 
 .team-container {
     display: flex;
     gap: 24px;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .team-img{
@@ -268,6 +270,7 @@ background-color: #404BBF;
     gap: 24px;
 	max-width: 100%;
 }
+
 .team-title {  
     color:  #2E2F42;
     text-align: center;
@@ -276,14 +279,14 @@ background-color: #404BBF;
     line-height:1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin: 0 auto 72px;
-
+    margin-top: 120px;
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    background-color: #F4F4FD;   
+    background-color: #F4F4FD;  
+    margin-bottom: 120px;
 }
 
 .team-card {
@@ -331,11 +334,9 @@ background-color: #404BBF;
    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto 72px;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    
-}
+    margin-top: 120px;
+    margin-bottom: 120px;
+    }
 
 .portfolio-img {
     display: block;
@@ -398,11 +399,6 @@ background-color: #404BBF;
     padding: 100px 0;
     background-color:  #2E2F42;
 }
-    
-/*.footer-container {
-    flex-direction: column;
-    justify-content: center;
-}*/
 
 .footer-logo {
     display: inline-block; 
