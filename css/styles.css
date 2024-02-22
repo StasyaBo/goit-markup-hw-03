@@ -333,7 +333,7 @@ background-color: #404BBF;
      flex-direction: column;
      justify-content: center;
      margin: 0 auto 72px;
-     padding: 120px 0;
+     padding: 120px 0 120px 0;
      
  }
  .portfolio-img {
