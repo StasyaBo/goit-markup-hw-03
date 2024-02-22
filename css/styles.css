@@ -399,11 +399,10 @@ background-color: #404BBF;
     background-color:  #2E2F42;
 }
     
-.footer-container {
-    display: flex;
+/*.footer-container {
     flex-direction: column;
     justify-content: center;
-}
+}*/
 
 .footer-logo {
     display: inline-block; 
