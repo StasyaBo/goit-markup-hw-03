@@ -73,9 +73,6 @@ address {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-    background-color: var(--WHITE, #FFF);
 }
 
 .header-navigation{
@@ -327,17 +324,6 @@ background-color: #404BBF;
 
 
 /*----portfolio----*/
-
-.portfolio-container {
-    display: flex;
-     flex-direction: column;
-     justify-content: center;
-     margin: 0 auto 72px;
-     padding-bottom: 120px;
-     padding-top: 120px;
-    
-     
- }
  .portfolio-img {
      display: block;
      width: 100%;
