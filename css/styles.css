@@ -226,8 +226,7 @@ background-color: #404BBF;
     background-color: #FFF  ;
 }
 .features-container{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0
 }
 .features-item {
     background-color:  #FFF;
@@ -256,7 +255,8 @@ background-color: #404BBF;
 .team {
     display: block;
     background-color: #F4F4FD;
-
+    padding: 120px 0;
+    margin-bottom: 72px;
 }
 
 .team-container {
@@ -279,14 +279,14 @@ background-color: #404BBF;
     line-height:1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 120px;
+    
 }
 
 .team-list {
     display: flex;
     gap: 24px;
     background-color: #F4F4FD;  
-    margin-bottom: 120px;
+    
 }
 
 .team-card {
@@ -334,8 +334,8 @@ background-color: #404BBF;
    display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     }
 
 .portfolio-img {
