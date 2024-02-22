@@ -342,6 +342,7 @@ background-color: #404BBF;
      column-gap: 24px;
      row-gap: 48px;
      margin: auto;
+     padding-bottom: 120px;
  }
  .portfolio-item {
      background-color: var(--WHITE, #FFF);
@@ -350,6 +351,7 @@ background-color: #404BBF;
  }
  .portfolio-title {
      margin-bottom: 72px;
+     padding-top: 120px;
      color: var(--NAVY-BLUE, #2E2F42);
      text-align: center;
      font-family: Roboto;
@@ -359,6 +361,7 @@ background-color: #404BBF;
      line-height: 40px; /* 111.111% */
      letter-spacing: 0.72px;
      text-transform: capitalize;
+
  }
  .portfolio-subtitle {
      margin-bottom: 8px; 
