@@ -324,6 +324,11 @@ background-color: #404BBF;
 
 
 /*----portfolio----*/
+.portfolio{
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
+
  .portfolio-img {
      display: block;
      width: 100%;
