@@ -64,8 +64,7 @@ address {
 /**----HEADER----**/
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 
@@ -112,6 +111,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-studio:active {
@@ -168,8 +168,7 @@ background-color: #404BBF;
 .hero-container{
     background-color:  #2E2F42;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
     
 }
 .hero-title {
@@ -285,13 +284,6 @@ background-color: #404BBF;
 }
 
 .team-card {
-    display: inline-flex;
-    padding-bottom: 32px;   
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    gap: 32px 24px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
@@ -309,7 +301,6 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -318,7 +309,6 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 8px;
     }
    
 
@@ -347,7 +337,6 @@ background-color: #404BBF;
      column-gap: 24px;
      row-gap: 48px;
      margin: auto;
-     padding-bottom: 120px;
  }
  .portfolio-item {
      background-color: var(--WHITE, #FFF);
@@ -356,7 +345,6 @@ background-color: #404BBF;
  }
  .portfolio-title {
      margin-bottom: 72px;
-     padding-top: 120px;
      color: var(--NAVY-BLUE, #2E2F42);
      text-align: center;
      font-family: Roboto;
